@@ -1,3 +1,13 @@
+body{
+	font-family: dancing Script;
+	background-color: black;
+}
+
+header{
+	background-color: #5b7989;
+}
+
 .Inicio{
 	text-decoration: none;
+	color: greenyellow;
 }
