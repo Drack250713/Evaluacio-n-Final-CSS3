@@ -3,11 +3,52 @@ body{
 	background-color: black;
 }
 
-header{
-	background-color: #5b7989;
+.Contenido{
+	width: 900px;
+	margin: auto;
 }
 
-.Inicio{
-	text-decoration: none;
-	color: greenyellow;
+header{
+	background-color: #5b7989;
+	height: 80px;
+	border-radius: 10px 10px 0 0;
 }
+
+header h1{
+	float: left;
+	padding-left: 2%;
+	color: white;
+	text-shadow: 2px 2px 0 #02010a;
+}
+
+#banner nav {
+	font-size: 17px;
+	float: right;
+}
+
+#banner nav li {
+	display: inline-block;
+}
+
+	#banner nav a:link, #banner nav a:visited {
+		color: white;
+		display: inline-block;
+		height: 30px;
+		padding: 10% 1em 0 0;
+	}
+
+	#banner nav .active a:link, #banner nav .active a:visited {
+		text-decoration: none;
+	}
+
+#Contenido-1{
+	background-color: #82c3a6;
+}
+
+.ImgPaisaje{
+	padding: 5%;
+}
+
+
+
+
