@@ -3,7 +3,7 @@ body{
 	background-color: black;
 }
 
-.Contenido{
+#Contenido{
 	width: 900px;
 	margin: auto;
 }
@@ -42,11 +42,54 @@ header h1{
 	}
 
 #Contenido-1{
+	width: 900px;
+	margin: auto;
 	background-color: #82c3a6;
 }
 
-.ImgPaisaje{
+.ImgNaturaleza{
 	padding: 5%;
+}
+
+#Contenido2{
+	width: 900px;
+	margin: auto;
+	background-color: #d5c75f;
+}
+
+.ImgPaisaje{
+	border: solid 1px;
+	width: 40%;
+	height: 40%;
+	margin: 5% 0 0 5%;
+}
+
+.ImgRetrato{
+	border: solid 1px;
+	width: 40%;
+	height: 40%;
+	margin: 5% 5% 0 5%;
+}
+
+p.Paisaje{
+	text-align: center;
+	width: 40%;
+	margin: 0 0 2% 5%;
+}
+
+p.Retrato{
+	text-align: center;
+	width: 40%;
+	margin: 0 5% 2% 5%
+}
+
+#Contenido2 > img{
+	flex: auto;
+}
+
+#Contenido2{
+	display: flex;
+	flex-flow: row wrap;
 }
 
 
