@@ -1,6 +1,14 @@
+/* Cuerpo */
 body{
 	font-family: dancing Script;
 	background-color: black;
+}
+
+/* Cabecera */
+header{
+	background-color: #5b7989;
+	height: 80px;
+	border-radius: 10px 10px 0 0;
 }
 
 #Contenido{
@@ -8,12 +16,7 @@ body{
 	margin: auto;
 }
 
-header{
-	background-color: #5b7989;
-	height: 80px;
-	border-radius: 10px 10px 0 0;
-}
-
+/* Nombre del Sitio */
 header h1{
 	float: left;
 	padding-left: 2%;
@@ -21,6 +24,7 @@ header h1{
 	text-shadow: 2px 2px 0 #02010a;
 }
 
+/* Menú */
 #banner nav {
 	font-size: 17px;
 	float: right;
@@ -41,6 +45,7 @@ header h1{
 		text-decoration: none;
 	}
 
+/* Imágen Central */
 #Contenido-1{
 	width: 900px;
 	margin: auto;
@@ -51,12 +56,14 @@ header h1{
 	padding: 5%;
 }
 
+/* Secciones */
 #Contenido2{
 	width: 900px;
 	margin: auto;
 	background-color: #d5c75f;
 }
 
+/* Secciones Fotos */
 .ImgPaisaje{
 	border: solid 1px;
 	width: 40%;
@@ -71,6 +78,7 @@ header h1{
 	margin: 5% 5% 0 5%;
 }
 
+/* Secciones Textos */
 p.Paisaje{
 	text-align: center;
 	width: 40%;
@@ -91,6 +99,89 @@ p.Retrato{
 	display: flex;
 	flex-flow: row wrap;
 }
+
+/* Pié del Sitio */
+Footer {
+	background-color: #C6D5C5;
+	border-radius: 0 0 10px 10px;
+}
+
+#Contenido3 {
+	width: 900px;
+	margin: auto;
+}
+
+/* Títulos del Pié */
+#Title h1 {
+	flex: auto;
+	margin: 2% 0 0 0;
+}
+
+#Title {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.Contacto {
+	width: 22%;
+	height: 20px;
+	margin: 0 0 0 5%;
+}
+
+.Terminos {
+	width: 20%;
+	margin: 0 0 0 3%;
+}
+
+.Redes {
+	width: 25%;
+	margin: 0 0 0 3%;
+}
+
+.Derechos {
+	width: 19%;
+	margin: 0 0 0 3%;
+}
+
+/* Datos del Pié */
+#Datos p {
+	flex: auto;
+	margin: 0;
+}
+
+#Datos {
+	display: flex;
+	flex-flow: row wrap;
+	
+}
+
+.Datos1 {
+	width: 22%;
+	margin: 0.5% 0 2% 5%;
+}
+
+.Datos2 {
+	width: 20%;
+	margin: 0.5% 0 2% 3%;
+}
+
+.Datos3 {
+	width: 25%;
+	margin: 0.5% 0 2% 3%;
+}
+
+.Datos4 {
+	width: 19%;
+	margin: 0.5% 0 2% 3%;
+}
+
+
+
+
+
+
+
+
 
 
 
