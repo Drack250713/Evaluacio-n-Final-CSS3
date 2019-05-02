@@ -114,7 +114,11 @@ Footer {
 /* Títulos del Pié */
 #Title h1 {
 	flex: auto;
-	margin: 2% 0 0 0;
+	margin: 7% 0 0 0;
+}
+
+#Title p {
+	margin: 0 0 10% 0;
 }
 
 #Title {
@@ -143,37 +147,6 @@ Footer {
 	margin: 0 0 0 3%;
 }
 
-/* Datos del Pié */
-#Datos p {
-	flex: auto;
-	margin: 0;
-}
-
-#Datos {
-	display: flex;
-	flex-flow: row wrap;
-	
-}
-
-.Datos1 {
-	width: 22%;
-	margin: 0.5% 0 2% 5%;
-}
-
-.Datos2 {
-	width: 20%;
-	margin: 0.5% 0 2% 3%;
-}
-
-.Datos3 {
-	width: 25%;
-	margin: 0.5% 0 2% 3%;
-}
-
-.Datos4 {
-	width: 19%;
-	margin: 0.5% 0 2% 3%;
-}
 
 
 
