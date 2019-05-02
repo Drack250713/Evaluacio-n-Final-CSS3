@@ -9,6 +9,7 @@ header{
 	background-color: #5b7989;
 	height: 80px;
 	border-radius: 10px 10px 0 0;
+	animation: Cabecera-animation 1s;
 }
 
 #Contenido{
@@ -53,7 +54,8 @@ header h1{
 }
 
 .ImgNaturaleza{
-	padding: 5%;
+	margin: 5%;
+	box-shadow: 2px 2px 0 0 #02010a;
 }
 
 /* Secciones */
@@ -64,18 +66,25 @@ header h1{
 }
 
 /* Secciones Fotos */
-.ImgPaisaje{
+#Contenido2 img {
 	border: solid 1px;
+	border-color: black;
+}
+
+.ImgPaisaje{
 	width: 40%;
 	height: 40%;
 	margin: 5% 0 0 5%;
+	box-shadow: 2px 2px 0 0 #02010a;
+	transition: transform 1s;
 }
 
 .ImgRetrato{
-	border: solid 1px;
 	width: 40%;
 	height: 40%;
 	margin: 5% 5% 0 5%;
+	box-shadow: 2px 2px 0 0 #02010a;
+	transition: transform 1s;
 }
 
 /* Secciones Textos */
@@ -83,6 +92,7 @@ p.Paisaje{
 	text-align: center;
 	width: 40%;
 	margin: 0 0 2% 5%;
+	animation: transform 1s;
 }
 
 p.Retrato{
@@ -146,6 +156,63 @@ Footer {
 	width: 19%;
 	margin: 0 0 0 3%;
 }
+
+/* Animaciones */
+/* Animacion de Cabecera */
+@keyframes Cabecera-animation {
+	0%{
+		margin-top: 150%;
+	}
+	
+	60%{
+		margin-top: -5%;
+	}
+	
+	100%{
+		margin-top: 0%;
+	}
+}
+
+/* Animacion de Foto 1 */
+.ImgPaisaje:hover {
+	transform: rotate(10deg);
+	animation: Animate-Paisaje 1s;
+	box-shadow: 2px 2px 0 0 #82c3a6;
+}
+
+@keyframes Animate-Paisaje {
+	from{
+	box-shadow: 2px 2px 0 0 #02010a;
+	}
+	to{
+	box-shadow: 2px 2px 0 0 #82c3a6;
+	}
+}
+
+/* Animacion de Foto 2 */
+.ImgRetrato:hover {
+	transform: translate(20px, -5px);
+	animation: Animate-Retrato 1s;
+	box-shadow: 2px 2px 0 0 #82c3a6;
+}
+
+@keyframes Animate-Retrato {
+	from{
+	box-shadow: 2px 2px 0 0 #02010a;
+	}
+	to{
+	box-shadow: 2px 2px 0 0 #82c3a6;
+	}
+}
+
+
+
+
+
+
+
+
+
 
 
 
