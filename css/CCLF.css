@@ -5,46 +5,52 @@ body{
 }
 
 /* Cabecera */
-header{
+#Contenido {
 	background-color: #5b7989;
-	height: 80px;
+	width: 900px;
+	margin: auto;
 	border-radius: 10px 10px 0 0;
 	animation: Cabecera-animation 1s;
 }
 
-#Contenido{
-	width: 900px;
-	margin: auto;
-}
-
 /* Nombre del Sitio */
-header h1{
-	float: left;
-	padding-left: 2%;
+.Title{
+	width: 50%;
+	margin: 0;
+	padding: 2%;
 	color: white;
 	text-shadow: 2px 2px 0 #02010a;
 }
 
 /* Menú */
-#banner nav {
+.Menu {
+	margin: 0;
+	padding: 1% 2% 0 0;
 	font-size: 17px;
-	float: right;
 }
 
-#banner nav li {
+.Menu li {
 	display: inline-block;
 }
 
-	#banner nav a:link, #banner nav a:visited {
+	.Menu a:link, .Menu a:visited {
 		color: white;
 		display: inline-block;
-		height: 30px;
 		padding: 10% 1em 0 0;
 	}
 
-	#banner nav .active a:link, #banner nav .active a:visited {
+	.Menu .active a:link, .Menu .active a:visited {
 		text-decoration: none;
 	}
+
+#Contenido {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#Contenido .Title {
+	flex: auto;
+}
 
 /* Imágen Central */
 #Contenido-1{
@@ -204,6 +210,35 @@ Footer {
 	box-shadow: 2px 2px 0 0 #82c3a6;
 	}
 }
+
+/* Media Queries */
+/* Cabecera Móviles */
+@media (max-width: 900px) {
+	#Contenido {
+	width: 100%;
+	}
+}
+
+@media (max-width: 900px) {
+	.Title {
+	width: 100%;
+	margin: 0;
+	padding-bottom: 0;
+	text-align: center;
+	}
+}
+
+@media (max-width: 900px) {
+	.Menu {
+	width: 100%;
+	margin: 0;
+	padding-top: 0;
+	text-align: center;
+	}
+	
+
+
+
 
 
 
