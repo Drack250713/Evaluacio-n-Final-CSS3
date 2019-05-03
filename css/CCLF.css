@@ -1,4 +1,9 @@
 /* Cuerpo */
+@font-face {
+	font-family: "dancing Script";
+	src: url("DancingScript-Regular.ttf")
+}
+
 body{
 	font-family: dancing Script;
 	background-color: black;
